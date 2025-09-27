@@ -116,3 +116,5 @@ This project demonstrates how Natural Language Processing (NLP), machine learnin
 - Imbalanced classes: Some sentiments may dominate the dataset
 - Limited feature representation: TF-IDF only; could be improved with word embeddings (Word2Vec, BERT, etc.)
 - Context understanding: Traditional ML models may misinterpret sarcasm, irony, or nuanced sentiments
+- The quality and accuracy of GenAI summaries/reports depend significantly on the prompt and the specific Gemini model's capabilities. Risks include hallucination (generating factually incorrect information) and reflecting biases from training data. Summaries are derived from input prompts, such as model accuracies or theme descriptions, without a deep understanding of the original data.
+- The quality and accuracy of the GenAI-generated summaries and reports depend heavily on the prompt provided and the capabilities of the specific Gemini model used; GenAI models can sometimes "hallucinate".
