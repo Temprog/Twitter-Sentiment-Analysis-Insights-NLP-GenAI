@@ -1,7 +1,10 @@
-# Twitter Sentiment Analysis and Prediction  
+# Twitter Sentiment Analysis & Prediction with GenAI Reporting
 
 This project focuses on analyzing Twitter tweets and classifying them into three sentiment categories: **Positive, Negative, and Neutral**.  
 It also includes a prediction component that applies the best-performing machine learning model to classify the sentiment of new feedback and review tweets.  
+This project performs sentiment analysis on Twitter tweets, classifying them into three sentiment categories: **Positive, Negative Neutral and Irrelevant**. Beyond traditional machine learning prediction, this updated notebook integrates the power of Google Gemini GenAI to provide automated summaries of sentiment and key discussion themes, and generates comprehensive narrative reports.
+
+The goal is to not only predict sentiment, but also to enhance the interpretability of the results for non-technical audiences through automated reporting.
 
 ---
 
@@ -60,7 +63,23 @@ The workflow includes:
   - Evaluation with accuracy, classification reports and confusion matrices  
 
 - **Prediction on New Data**  
-  - The best-performing model (Random Forest Classifier) is used to predict sentiments on new review tweets.  
+  - The best-performing model (Random Forest Classifier) is used to predict sentiments on new review tweets.
+
+ **Google Gemini GenAI Integration**  
+  - Connects to the Google Gemini API.
+  - Generates automated narrative summaries of overall sentiment and key discussion themes based on the analysis.
+  - Creates comprehensive automated narrative reports that combine project details, data analysis insights, model performance evaluation, and GenAI-generated thematic summaries.
+
+---
+
+**Technologies Used**
+- Python
+- pandas (for data manipulation and analysis)
+- nltk (for natural language processing tasks like tokenization and lemmatization)
+- scikit-learn (for machine learning models and evaluation)
+- matplotlib and seaborn (for data visualization)
+- wordcloud (for generating word clouds)
+- Google Generative AI SDK (google.generativeai) for interacting with the Gemini API
 
 ---
 
@@ -81,11 +100,13 @@ The workflow includes:
 
 ## 🌟 Importance of the Project
 
-This project demonstrates how Natural Language Processing (NLP) and machine learning can be applied to:
+This project demonstrates how Natural Language Processing (NLP), machine learning and Generative AI can be applied to:
 
-- Analyze public opinion on social platforms
-- Automate sentiment classification for large-scale feedback
-- Provide actionable insights for businesses, policymakers and researchers
+- Analyze public opinion and sentiment on social platforms at scale.
+- Automate sentiment classification for large volumes of feedback.
+- Generate automated summaries and narrative reports to quickly grasp key sentiment trends and discussion themes.
+- Enhance the interpretability of complex data for businesses, policymakers, researchers and other stakeholders who may not have technical expertise.
+- Provide actionable data-driven insights for decision-making and strategic planning.
 
 ---
 
